@@ -1,0 +1,18 @@
+dependencies {
+    //Examples of compile-time and runtime dependencies
+
+    //pluginLibsCompile 'junit:junit-dep:4.10'
+    //pluginLibsRuntime 'junit:junit-dep:4.10'
+}
+
+task install {
+    doLast {
+        // Install logic for this plugin
+    }
+}
+
+task uninstall {
+    doLast {
+        // uninstall logic for this plugin
+    }
+}
